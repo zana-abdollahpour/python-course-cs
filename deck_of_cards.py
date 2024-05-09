@@ -20,6 +20,8 @@ class Deck:
 
     def __repr__(self): return f"Deck of {self.count()} cards"
 
+    def __iter__(self): return iter(self.cards)
+
     def _deal(self, num):
         count = self.count()
         if counts == 0:
@@ -44,6 +46,9 @@ class Deck:
 
 d = Deck()
 
-print(d.cards)
-print(d.count())
-print(d)
+# print(d.cards)
+# print(d.count())
+# print(d)
+
+for card in d:
+    print(card)
