@@ -1,0 +1,4 @@
+this is first line of some text...
+so this is second line
+and this is third
+next is me, fourth
